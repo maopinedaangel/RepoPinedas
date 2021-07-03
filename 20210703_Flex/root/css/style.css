@@ -1,0 +1,36 @@
+/*Resetear estilos*/
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+/*Se fija la altura del body igual a la del veiwport
+se aplica display: flex al body para centrar el div padre*/
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Se aplica display: flex al div padre para poder ubicar los div hijos*/
+.padre {
+    background-color: yellow;
+    width: 50vw;
+    height: 500px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+.hijo {
+    background-color: red;
+    width: 10vw;
+    height: 150px;
+    border: 1px solid white;
+}
+
+

@@ -1,0 +1,81 @@
+h1 {
+    color:blue;
+    text-align: center;
+    background-color: gray;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: url('../img/matrix.png')center/cover;
+    height:700 px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.banner::before {
+    content:'';
+    height: 100%;
+    width: 100%;
+    background: darkblue;
+    opacity: 0,8;
+}
+
+.banner__info  {
+    padding: 0,3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700 px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.banner__title {
+    line-height: 1.5; 
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.banner__p {
+    line-height: 2;
+    font-size: 0,9 em;
+    font-family: sans-serif;
+}
+
+section {
+   width: 60%;
+   margin-left:auto;
+   margin-right:auto;
+   background-color: white    
+}
+
+header {
+    text-align: center;
+    background-color: silver;
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white
+}
+    
+#bienvenidos {
+    color:red;
+}
+
+.titulos-resaltados {
+    background-color: yellow;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0%;
+}
+
+.padre {
+    width: 1000px;
+    height: 1000px;
+    background-color: cyan;
+}
+
+.hijo {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid white;
+}
