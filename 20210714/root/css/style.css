@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#lista-general {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#lista-servicios {
+    display: flex;
+    color: blue;
+}
+
+#lista-opciones {
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+    /*width: 150px;*/
+    padding: 1rem;
+}
+
+#item-resaltado {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+#item-resaltado:hover {
+    background-color: green;
+}
+
+#nav-general {
+    background-color: blue;
+
+}
+
+#nav-servicios {
+
+}
+
+#div-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+#div-banner {
+    background-image: url('../img/banner.jpg');
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+#lista-opciones li {
+    margin: 1px;
+    background-color: orange;
+}
